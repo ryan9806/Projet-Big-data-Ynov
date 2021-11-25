@@ -18,7 +18,7 @@ pip install folium
 
 
 il faut lancer le container avec la commande 
-	docker exec -it nom du container bash 
+	docker exec -it nom du container bash (le container est "jupyter/pyspark-notebook:python-3.8.8")
 Dans le container jupyter/pyspark-notebook il faut installer les biliotheques suivante : 
 	pip install kafka-python 
 	pip install pyspark 
